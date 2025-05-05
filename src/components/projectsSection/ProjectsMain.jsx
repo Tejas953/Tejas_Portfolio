@@ -5,31 +5,47 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: (
+      <span>
+        ARRIVA <br /> (Smart India Hackathon)
+      </span>
+    ),
+    year: "nov 2023",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "/images/website-img-1.jpg",
     link: "#",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: (
+      <span>
+        Food_Classifiation  <br /> (Eumnetics Company)
+      </span>
+    ),
+    year: "feb 2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "/images/website-img-2.webp",
     link: "#",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: (
+      <span>
+        AI Based Knife_Detetction<br /> (Smith Hacakathon)
+      </span>
+    ),
+    year: "April 2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "/images/website-img-3.jpg",
     link: "#",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: (
+      <span>
+        Travel Companion<br /> (Content Stack)
+      </span>
+    ),
+    year: "January 2025",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "/images/website-img-4.jpg",
     link: "#",
   },
 ];

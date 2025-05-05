@@ -9,6 +9,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 const skills = [
   {
@@ -32,8 +33,8 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "AI_ML",
+    icon: GiArtificialIntelligence,
   },
   {
     skill: "NextJS",
